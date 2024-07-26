@@ -277,6 +277,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			poisonpowder: ["9L15", "8L15", "8V", "7L13", "7V", "6L13", "5L13", "4L13", "3L15"],
 			powerwhip: ["9L51", "8M", "8V"],
 			protect: ["9M", "8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
+			placeholder: ["9M", "8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			rage: ["7V"],
 			razorleaf: ["9L12", "8L12", "8V", "7L20", "7V", "6L20", "5L20", "4L20", "3L22"],
 			reflect: ["8V", "7V"],
