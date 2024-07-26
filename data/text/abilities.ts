@@ -2264,4 +2264,9 @@ export const AbilitiesText: {[id: IDEntry]: AbilityText} = {
 
 		activate: "  [POKEMON] extends [MOVE] by 2 turns!",
 	},
+	haste: {
+		name: "Haste",
+		desc: "Increases speed by 50% on this pokemons first turn out, resets on switch out",
+		shortDesc: "On first turn: speed = 1.5x, resets on switch out",
+	},
 };
