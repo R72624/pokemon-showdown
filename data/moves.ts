@@ -22071,21 +22071,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	placeholder: {
 		num: 998,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 200,
 		category: "Physical",
-		isNonstandard: "LGPE",
 		name: "Place Holder",
-		pp: 10,
-		priority: 2,
-		flags: { contact: 1, protect: 1, mirror: 1 },
-		secondary: {
-			chance: 100,
-			self: {
-				boosts: {
-					evasion: 1,
-				},
-			},
-		},
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1, slicing: 1},
+		secondary: null,
 		target: "normal",
 		type: "Electric",
 		contestType: "Cool",
