@@ -7545,5 +7545,10 @@ export const MovesText: {[id: IDEntry]: MoveText} = {
 			desc: "Will always result in a critical hit.",
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
+			placeholder: {
+		name: "Place Holder",
+		desc: "Has a 30% chance to make the target flinch.",
+		shortDesc: "30% chance to make the target flinch.",
+	  },
 	},
 };
