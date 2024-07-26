@@ -22068,4 +22068,27 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	placeholder: {
+		num: 998,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		isNonstandard: "LGPE",
+		name: "Place Holder",
+		pp: 10,
+		priority: 2,
+		flags: { contact: 1, protect: 1, mirror: 1 },
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					evasion: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Electric",
+		contestType: "Cool",
+	},
+};
 };
