@@ -5652,11 +5652,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: -4,
 	},
 	haste: {
-		onModifyAccuracyPriority: 10,
-		onModifyAccuracy(accuracy, target, source, move) {
-			if (move.category === 'Status' && typeof accuracy === 'number') {
-				this.debug('Wonder Skin - setting accuracy to 50');
-				return 50;
+		onModifySpe(spe, pokemon) {
+			if (this.activeMoveActions > 1) {
+				return this.chainModify(2);
 			}
 		},
 		flags: {breakable: 1},
