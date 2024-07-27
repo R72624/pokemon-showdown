@@ -22069,7 +22069,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Cool",
 	},
 	placeholder: {
-		num: 998,
+		num: 0,
 		accuracy: 100,
 		basePower: 200,
 		category: "Physical",
