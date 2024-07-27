@@ -22073,7 +22073,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 100,
 		basePower: 200,
 		category: "Physical",
-		name: "Place Holder 1",
+		name: "Place Holder",
 		pp: 15,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1, slicing: 1},
