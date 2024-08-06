@@ -10846,7 +10846,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 614,
 		name: "Beartic",
 		types: ["Ice"],
-		baseStats: {hp: 95, atk: 130, def: 80, spa: 70, spd: 80, spe: 50},
+		baseStats: {hp: 95, atk: 400, def: 80, spa: 70, spd: 80, spe: 50},
 		abilities: {0: "Snow Cloak", 1: "Slush Rush", H: "Swift Swim"},
 		heightm: 2.6,
 		weightkg: 260,
